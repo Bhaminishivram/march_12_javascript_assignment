@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Include</title>
+</head>
+<body>
+   <script> 
+    var arr =[1,2,4,4,1,2,2,8,9,6,5,4,90,34,22,55,55,77,8,77,22]; 
+    var count = {}; 
+    for(var i=0;i<arr.length;i++)
+    {
+    	var num = arr[i]; 
+    	count[num] = count[num] ?count[num]+1:1; 
+    }
+    console.log(count);
+</script> 
+</body>
+</html>
